@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  .selected {
+    background-color: #b3e5fc;
+  }
+  
+  .button{
+    background-color: #0dbc72;
+    border-radius: 20px;
+    width: 20%;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .button-disable{
+    border-radius: 20px;
+    width: 20%;
+    cursor: not-allowed;
+    padding: 10px;
+  }
+
+  .result{
+    color: chocolate;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: chocolate;
+    font-size: 30px;
+  }
